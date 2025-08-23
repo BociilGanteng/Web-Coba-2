@@ -1,0 +1,165 @@
+.form-container {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  width: 600px;
+  margin: 20px auto;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+footer {
+  text-align: center;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Tombol Home */
+.home-btn {
+  text-align: center;
+  margin-top: 10px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.home-btn a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-btn a:hover {
+  background-color: #34495e;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.4);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ========== FORM CONTAINER ========== */
+form {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #a47d4f;
+}
+
+/* ========== TABLE STYLING ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  vertical-align: top;
+}
+
+label {
+  font-weight: 500;
+  color: #34495e;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 95%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #2980b9;
+  box-shadow: 0 0 6px rgba(41, 128, 185, 0.5);
+}
+
+/* ========== BUTTON STYLING ========== */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #a47d4f;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.25s ease, background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background: #a47d4f;
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.4);
+}
+
+/* ========== ANIMASI ========== */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+a[href="opening.html"] {
+  display: inline-block;
+  margin: 30px 0;
+  padding: 12px 25px;
+  background-color: #c49b63; /* gold elegan */
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+a[href="opening.html"]:hover {
+  background-color: #a47d4f;
+  transform: translateY(-4px) scale(1.05);
+}
+/* Animasi fade-in */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
